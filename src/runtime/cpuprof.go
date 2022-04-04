@@ -19,7 +19,7 @@ import (
 )
 
 const (
-	maxCPUProfStack = 64
+	maxCPUProfStack = 128
 
 	// profBufWordCount is the size of the CPU profile buffer's storage for the
 	// header and stack of each sample, measured in 64-bit words. Every sample
